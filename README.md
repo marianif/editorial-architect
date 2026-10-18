@@ -26,6 +26,27 @@ It also carries explicit anti-fabrication rules: it never invents keyword volume
 Copy the repository into the skills directory of the harness you use, keeping `SKILL.md`, `references/` and `assets/` together under a folder named `editorial-architect`.
 
 ```sh
+npx skills add marianif/editorial-architect
+```
+
+The [skills CLI](https://github.com/vercel-labs/skills) detects your installed agents, clones the repo and links the skill into each one. Useful flags:
+
+```sh
+# Install globally for Claude Code and OpenCode, non-interactive
+npx skills add marianif/editorial-architect -g -a claude-code -a opencode -y
+
+# Inspect before installing
+npx skills add marianif/editorial-architect --list
+```
+
+It also works with Claude Code plugin marketplaces, Codex, Cursor, Gemini CLI, GitHub Copilot, Windsurf and [75+ other agents](https://github.com/vercel-labs/skills#supported-agents).
+
+<details>
+<summary>Manual install (no Node)</summary>
+
+Clone the repo into the skills directory of your harness, keeping `SKILL.md`, `references/` and `assets/` together under a folder named `editorial-architect`:
+
+```sh
 git clone https://github.com/marianif/editorial-architect.git <skills-dir>/editorial-architect
 ```
 
@@ -34,6 +55,8 @@ git clone https://github.com/marianif/editorial-architect.git <skills-dir>/edito
 | Claude Code | `~/.claude/skills/editorial-architect/` |
 | OpenCode | `.opencode/skills/editorial-architect/` (project) or `~/.config/opencode/skills/editorial-architect/` |
 | Codex / Cursor / other Agent Skills runtimes | that runtime's documented skills directory |
+
+</details>
 
 Consult your runner's documentation for skill discovery. No build step, no dependencies — the skill is Markdown instructions plus templates.
 
