@@ -6,6 +6,8 @@ Its default behavior is an adaptive, **one-question-at-a-time editorial intervie
 
 **North star:** build a blog that has something to say; make its ideas findable and usable by human readers, search engines and AI answer systems.
 
+> **Also known as:** blog strategy skill · content strategy skill · editorial calendar generator · SEO and AEO planning · answer engine optimization (AEO) · generative engine optimization (GEO) · AI visibility · topic clusters and pillar pages · keyword research and search intent · content brief and article brief templates · Claude Code / OpenCode / Codex / Cursor Agent Skill.
+
 ## What it does
 
 | Mode | Outcome |
@@ -34,6 +36,12 @@ git clone https://github.com/marianif/editorial-architect.git <skills-dir>/edito
 | Codex / Cursor / other Agent Skills runtimes | that runtime's documented skills directory |
 
 Consult your runner's documentation for skill discovery. No build step, no dependencies — the skill is Markdown instructions plus templates.
+
+## Search terms
+
+If you arrived here searching for any of these, this is the skill:
+
+`agent skills` · `claude code skill` · `claude skills` · `opencode skill` · `codex skill` · `cursor skill` · `blog strategy` · `editorial strategy` · `content strategy` · `editorial calendar` · `content calendar` · `editorial ground` · `brand voice` · `tone of voice` · `storytelling framework` · `blog audit` · `seo strategy` · `aeo` · `answer engine optimization` · `geo` · `generative engine optimization` · `ai visibility` · `llm visibility` · `topic clusters` · `pillar pages` · `keyword research` · `search intent` · `topical authority` · `content brief` · `article brief` · `interview a founder`
 
 ## Suggested initial requests
 

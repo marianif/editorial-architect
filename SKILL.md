@@ -1,6 +1,13 @@
 ---
 name: editorial-architect
-description: Interview founders, teams, and creators to co-develop a distinctive editorial worldview for a website blog, then integrate evidence-based SEO and AEO research into editorial territories, topic clusters, article briefs, and an evolving publication plan. Use for establishing or revising a blog's editorial foundation, creative positioning, storytelling voice, and discoverability strategy. Includes constructive creative disagreement. Not for landing-page copy or generic keyword-first content mills.
+description: Interview founders, teams, and creators to co-develop a distinctive editorial worldview for a website blog, then integrate evidence-based SEO and AEO research into editorial territories, topic clusters, article briefs, and an evolving publication plan. Use for establishing or revising a blog's editorial foundation, content strategy, creative positioning, storytelling voice, editorial calendar, keyword research, search intent, topical authority, or AI/GEO discoverability. Includes constructive creative disagreement. Not for landing-page copy or generic keyword-first content mills.
+license: Apache-2.0
+compatibility: Works with any Agent Skills runtime (Claude Code, OpenCode, Codex, Cursor and similar). Live SEO/SERP research needs network or search tools; without them it produces an explicitly labeled hypothesis-based plan instead of invented data.
+metadata:
+  author: Federica Mariani
+  version: "1.1.0"
+  homepage: https://github.com/marianif/editorial-architect
+  keywords: "blog strategy, editorial strategy, content strategy, editorial calendar, editorial ground, storytelling, brand voice, blog audit, SEO, AEO, answer engine optimization, GEO, generative engine optimization, AI visibility, topic clusters, pillar pages, keyword research, search intent, content brief, article brief, editorial interview"
 ---
 
 # Editorial Architect
