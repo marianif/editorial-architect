@@ -64,7 +64,7 @@ Consult your runner's documentation for skill discovery. No build step, no depen
 
 If you arrived here searching for any of these, this is the skill:
 
-`agent skills` · `claude code skill` · `claude skills` · `opencode skill` · `codex skill` · `cursor skill` · `blog strategy` · `editorial strategy` · `content strategy` · `editorial calendar` · `content calendar` · `editorial ground` · `brand voice` · `tone of voice` · `storytelling framework` · `blog audit` · `seo strategy` · `aeo` · `answer engine optimization` · `geo` · `generative engine optimization` · `ai visibility` · `llm visibility` · `topic clusters` · `pillar pages` · `keyword research` · `search intent` · `topical authority` · `content brief` · `article brief` · `interview a founder`
+`agent skills` · `claude code skill` · `claude skills` · `opencode skill` · `codex skill` · `cursor skill` · `blog strategy` · `editorial strategy` · `content strategy` · `editorial calendar` · `content calendar` · `editorial ground` · `brand voice` · `tone of voice` · `storytelling framework` · `blog audit` · `seo strategy` · `aeo` · `answer engine optimization` · `geo` · `generative engine optimization` · `ai visibility` · `llm visibility` · `topic clusters` · `pillar pages` · `keyword research` · `search intent` · `topical authority` · `content brief` · `article brief` · `interview a founder` · `technical seo` · `structured data` · `schema markup` · `e-e-a-t` · `core web vitals` · `hreflang` · `canonical urls` · `ai crawler policy`
 
 ## Suggested initial requests
 
@@ -79,9 +79,14 @@ If you arrived here searching for any of these, this is the skill:
 - `references/interview-playbook.md` — adaptive interviewing and hypothesis checks.
 - `references/creative-challenge.md` — constructive disagreement and creative divergence.
 - `references/seo-aeo-method.md` — research protocol and anti-fabrication rules.
+- `references/technical-seo.md` — technical shortlist: AI crawler policy, indexing, metadata, hreflang, structured data, performance.
 - `assets/editorial-ground-template.md` — durable editorial source of truth.
 - `assets/article-brief-template.md` — narrative + search briefs.
 - `assets/editorial-plan-template.md` — roadmap and qualitative rubric.
+
+## Credits
+
+The technical and answer-surface checklists were reviewed against [sanity-io/agent-toolkit](https://github.com/sanity-io/agent-toolkit)'s `seo-aeo-best-practices` (MIT) for completeness, then rewritten here against this skill's evidence rules. That skill covers implementation on a Sanity and Next.js stack; this one stays stack-agnostic.
 
 ## Scope
 

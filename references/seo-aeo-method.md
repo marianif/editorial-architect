@@ -18,10 +18,11 @@ Never transform level 4/5 into numeric keyword volume, click-through rate or AI 
 - Look for an **editorial gap** (not just an empty keyword): missing firsthand voices, lack of nuance, contradictory claims, poor geography/language fit, shallow explanatory models.
 - Write a narrative hypothesis and a separate search hypothesis.
 - Plan answer passages where natural: define important terms, state claims precisely, contextualize limitations, show evidence and give the reader a satisfying next question.
-- Recommend accessible semantic article structure, descriptive headings, sourcing, attribution, author/editor information when relevant, stable canonical URLs, appropriate internal linking and maintenance.
-- Technical suggestions only when warranted: indexing, crawl access, canonicalization, sitemap, metadata, eligible structured data. Validate current platform guidance; structured data isn't an AI citation guarantee.
+- Recommend accessible semantic article structure, descriptive headings, sourcing, attribution, stable canonical URLs, appropriate internal linking and maintenance.
+- Describe authors and reviewers with the vocabulary search and answer systems already use — experience, expertise, authoritativeness, trustworthiness — and reflect it in the page: named author, credentials, who reviewed the piece, honest dates. Where the subject touches health, finance, legal matters or safety, treat it as YMYL and ask for review by someone qualified before publishing.
+- Technical suggestions only when warranted, and only after inspecting the site: crawl access, indexing, canonicalization, sitemap, metadata, international publishing, structured data, performance. Read [technical-seo.md](technical-seo.md) for that shortlist, including which AI crawlers to allow or block. Validate current platform guidance; structured data isn't an AI citation guarantee.
 - Use FAQ sections only if the article authentically serves distinct reader questions. Do not manufacture questions to game AEO.
-- Define a measurement plan: relevant impressions/queries, engaged readership, referred mentions, earned citations/links and repeat readership when observable. Attribute trends cautiously.
+- Define a measurement plan: relevant impressions/queries, engaged readership, referred mentions, earned citations/links and repeat readership when observable. AI Overview reporting in Search Console, referral traffic from assistants, and asking an assistant what it repeats about the topic are all inspectable. Attribute trends cautiously, and keep a single observation separate from a pattern.
 
 ## AEO terminology
 

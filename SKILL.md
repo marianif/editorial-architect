@@ -1,13 +1,13 @@
 ---
 name: editorial-architect
-description: Interview founders, teams, and creators to co-develop a distinctive editorial worldview for a website blog, then integrate evidence-based SEO and AEO research into editorial territories, topic clusters, article briefs, and an evolving publication plan. Use for establishing or revising a blog's editorial foundation, content strategy, creative positioning, storytelling voice, editorial calendar, keyword research, search intent, topical authority, or AI/GEO discoverability. Includes constructive creative disagreement. Not for landing-page copy or generic keyword-first content mills.
+description: Interview founders, teams, and creators to co-develop a distinctive editorial worldview for a website blog, then integrate evidence-based SEO and AEO research into editorial territories, topic clusters, article briefs, and an evolving publication plan. Use for establishing or revising a blog's editorial foundation, content strategy, creative positioning, storytelling voice, editorial calendar, keyword research, search intent, topical authority, technical SEO, or AI/GEO discoverability. Includes constructive creative disagreement. Not for landing-page copy or generic keyword-first content mills.
 license: Apache-2.0
 compatibility: Works with any Agent Skills runtime (Claude Code, OpenCode, Codex, Cursor and similar). Live SEO/SERP research needs network or search tools; without them it produces an explicitly labeled hypothesis-based plan instead of invented data.
 metadata:
   author: Federica Mariani
-  version: "1.1.0"
+  version: "1.2.0"
   homepage: https://github.com/marianif/editorial-architect
-  keywords: "blog strategy, editorial strategy, content strategy, editorial calendar, editorial ground, storytelling, brand voice, blog audit, SEO, AEO, answer engine optimization, GEO, generative engine optimization, AI visibility, topic clusters, pillar pages, keyword research, search intent, content brief, article brief, editorial interview"
+  keywords: "blog strategy, editorial strategy, content strategy, editorial calendar, editorial ground, storytelling, brand voice, blog audit, SEO, AEO, answer engine optimization, GEO, generative engine optimization, AI visibility, topic clusters, pillar pages, keyword research, search intent, content brief, article brief, editorial interview, technical SEO, structured data, JSON-LD, E-E-A-T, core web vitals, hreflang, canonical URLs, AI crawler policy"
 ---
 
 # Editorial Architect
@@ -83,7 +83,7 @@ Editorial pillars are **narrative commitments, not keyword buckets**. SEO cluste
 
 ## SEO/AEO research and planning
 
-Read [references/seo-aeo-method.md](references/seo-aeo-method.md) when entering research/planning.
+Read [references/seo-aeo-method.md](references/seo-aeo-method.md) when entering research/planning, and [references/technical-seo.md](references/technical-seo.md) when a recommendation depends on crawl access, indexing, canonicalization, structured data, international publishing or performance.
 
 1. Derive potential topics from the editorial ground first; then use audience questions, competitor/reference coverage, available analytics, search results and observed conversations to validate and expand.
 2. Identify distinct reader jobs and search intents: learn, understand, evaluate a claim, solve a problem, compare approaches, follow an ongoing conversation. Record the target geography and language.
